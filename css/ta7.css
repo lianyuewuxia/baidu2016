@@ -26,11 +26,53 @@ a{
 /*bader*/
 .beader {position: relative;}
 .beader span{margin:12px 0 0 20px;display: inline-block; }
-.beader strong{display: inline-block;font-size: 21px;margin:0px 2px; line-height: 30px;color: #333333;vertical-align:top; }
+.beader strong{display: inline-block;font-size: 21px;margin:0 2px; line-height: 30px;color: #333333;vertical-align:top;}
 .beader a:hover{transition: all .3s; border-bottom:5px solid #E74F4D; }
 .beader li:first-child a{color: #E74F4D;border-bottom: 5px solid #E74F4D;}
 .beader li:last-child a{color: #E74F4D;font-weight: bold;}
 .beader-ul{position: absolute; top: 10px; right:5%;line-height: 30px;}
 .beader-ul li{ text-align: center;display: inline-block;margin:0; }
 .beader-ul li a{padding: 5px 18px;font-size: 14px;transition: all .3s;}
-.bat1{position: relative; background:url("/baidu2016/img/task7/bat01.jpg")no-repeat; background-size: 100% auto; height: 35px;}
+.bat1 {
+    position: relative;
+    height: 35vw;
+    width: 100%;
+    background: url("/baidu2016/img/task7/task07-background01.png") no-repeat;
+    background-size: 100% auto;
+}
+/*焦点图*/
+.bat1 h2, .bat1 p, .bat1 input{color:white;}
+.bat1-conter{position: absolute; left: 13%;top:10%;}
+.bat1-conter h2{font-size: 4.8vw;}
+.bat1-conter p{padding: 10px;}
+.bat1 p:nth-child(2){font-size: 1.8vw;}
+.bat1 p:nth-child(3){font-size: 1.2vw;}
+.bat1-conter input{width: 18vw;font-size: 3vw;transition: all .5s;}
+.bat1 input{border: none; background-color:#e74f4d;margin-top: 20px;}
+/*四图标*/
+.bat2{position: relative;
+    background: url("/baidu2016/img/task7/task07-background02.png")no-repeat;
+    background-size: 100%;}
+.bat2 ul{display:flex; }
+.bat2 li{text-align: center; padding: 2vw;margin: 4vw 2vw;}
+/*3*/
+.bat3{ background-color: #EDECEC; margin-bottom:-90px; text-align: center; }
+.bat3 img{margin-top:8%;width: 7vw;}
+.bat3 p{margin-top:5%;padding-bottom: 8%; font-size: 3vw;}
+/*第四个div*/
+.bat4{background: url("/baidu2016/img/task7/bat4-bg.png")no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 10%;
+    text-align: center;}
+.bat4 select, .bat4 a{display: inline-block; border: 1px solid #BE4E48;width: 16vw;height: 4vw;line-height: 4vw; }
+.bat4 a{background-color:#BE4E48; }
+.bat4 p{padding-top: 6%;color: white;}
+.bat4 select{margin-top:52px;}
+/*bat5*/
+.bat5{background-color:#F7F7F7;text-align: center;padding-top:100px; padding-bottom: 8%;}
+.bat5 ul li span{font-size:16px;display: block;color: black;}
+.bat5 ul li p{font-size:12px;}
+.bat5 li{display: inline-block;margin-left: 40px; height: 400px;}
+/*bat06*/
+.bat6{}
+.bat6-left {position: absolute; width: 60%}
